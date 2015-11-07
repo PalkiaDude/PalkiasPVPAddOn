@@ -1,4 +1,4 @@
-namespace PalkiaDude\PVPAddon;
+namespace PalkiaDude;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
