@@ -2,5 +2,5 @@ name: PalkiaPVPAddOn
 author: PalkiaDude
 version: 1.0
 api: [1.13.0]
-description: "New PVP Addon!"
+description: New PVP Addon!
 main: PalkiaDude\Main
