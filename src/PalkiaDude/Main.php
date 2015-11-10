@@ -13,7 +13,7 @@ public function onEnable(){
 public function Hurt(EntityDamageByEntityEvent $event){
 $killer = $event->getDamager();
 $Victim = $event->getEntity();
-if($killer->getItem()->getId() == 276 or 267){
+if($killer->getItemInHand()->getId() == 276 or 267){
 $event->$killer->setHealth(1);
 $event->$Victim->setOnFire(5);
 }
